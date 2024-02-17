@@ -1,0 +1,77 @@
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+}
+:root{
+    --text-dark:#000;
+    --text-light:#FFF;
+    --text-grey:#adbdcc;
+    --body-font:"Roboto", sans-serif;
+    --heading-font:"Anek Telugu", sans-serif;
+    --h1-font-size:5rem;
+    --h2-font-size:4rem;
+    --h3-font-size:3rem;
+    --h4-font-size:2rem;
+    --h5-font-size:1rem;
+    --h6-font-size:.7rem;
+    --h1-line-height:6.75rem;
+    --h2-line-height:4.75rem;
+}
+h1{
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: var(--h1-font-size);
+    letter-spacing: -1px;
+    width: 100%;
+    line-height: var(--h1-line-height);
+}
+h2{
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: var(--h2-font-size);
+    letter-spacing: -.25px;
+    width: 100%;
+    line-height: var(--h2-line-height);
+}
+h3{
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: var(--h3-font-size);
+    width: 100%;
+}
+h4{
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: var(--h4-font-size);
+    width: 100%;
+    letter-spacing: .25px;
+}
+h5{
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: var(--h5-font-size);
+    width: 100%;
+}
+h6{
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: var(--h6-font-size);
+    width: 100%;
+}
+a, a:visited, a:hover{
+
+}
+/**,*::before, *::after{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*body{*/
+/*    font-family: sans-serif;*/
+/*    font-size: 16px;*/
+/*}*/
