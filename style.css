@@ -238,8 +238,16 @@ background-color: rgba(250, 250, 250,.25);
 .two-column > .col-left{
     width: 50%;
     padding: 0 var(--spacing-md) 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 .two-column > .col-right{
     width: 50%;
     padding: 0 0 0 var(--spacing-md);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
